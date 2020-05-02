@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding;0;
+}
+body{
+    background-color: ;
+}
+h1,h2, h3, h4, h5,span .h1 .h2{
+    font-family: 'Merriweather', 'serif';;
+}
+my-link{
+    font-size: .2rem !important;
+    font-weight: 700;
+}
+
+.my-link:hover{
+    border-radius: 25px;
+    background-color: #316DC3;
+    color : white !important;
+
+    transition: background-color .3s linear;
+}
+.my-link:hover .dropdown-menu{
+    display: block;
+    transition: all .3s linear;
+}
+.dropdown-item:hover{
+    background-color:#316DC3 ;
+    padding-left: 40px;
+    transition: all .3s linear;
+    font-weight: 700;
+    opacity: 1;
+    color: black;
+    
+}
+.my-color{
+    color: #316DC3;
+}
+.my-image{
+    width: 1500px;
+    height: 150px;
+}
+a:hover{
+    opacity: .5;
+}
+.my-btn{
+    background-color:#316dc3;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: .8em;
+    padding: .4rem;
+    border-radius: 25px;
+    margin: .2rem;
+}
+.my-btn:hover{
+    opacity: .5;
+    transition: .5s ease-out;
+    cursor: pointer;
+}
+.img-thumbnail:hover .my-btn{
+    display: block;
+
+}
+.img-thumbnail:hover{
+    opacity: 0.4;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.dropdown-divider{
+    width: 50px;
+    height: 5px;
+    color: yellowgreen;
+}
